@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.8",
+    "vant": "^3.4.7",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -18,7 +20,10 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.12",
+    "postcss-pxtorem": "^6.0.0",
+    "vite-plugin-style-import": "^1.4.1"
   },
   "eslintConfig": {
     "root": true,
@@ -33,6 +38,14 @@
       "parser": "@babel/eslint-parser"
     },
     "rules": {}
+  },
+  "rules": {
+    "generator-star-spacing": "off",
+    "no-tabs": "off",
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "no-irregular-whitespace": "off",
+    "no-debugger": "off"
   },
   "browserslist": [
     "> 1%",
